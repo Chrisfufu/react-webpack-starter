@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import React from 'react';
 import './App.css';
+import { DatePicker } from 'antd';
+import connect from 'redux-connect-decorator'
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         >
           Learn React
         </a>
+        <DatePicker />
       </header>
     </div>
   );
